@@ -11,7 +11,7 @@ from core import checks
 from core.models import PermissionLevel
 
 
-class MyGiveaway(commands.Cog):
+class giveaways(commands.Cog):
     """
     Host giveaways on your server with this ~~amazing~~ plugin
     """
@@ -430,4 +430,4 @@ class MyGiveaway(commands.Cog):
 
 
 def setup(bot):
-    bot.add_cog(MyGiveaway(bot))
+    bot.add_cog(giveaways(bot))
